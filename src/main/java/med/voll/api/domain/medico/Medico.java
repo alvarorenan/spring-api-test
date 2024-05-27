@@ -50,6 +50,9 @@ public class Medico {
         if (dados.endereco() != null) {
             this.endereco.atualizarInformacoes(dados.endereco());
         }
+        if (dados.ativo() != null) {
+            this.ativo = dados.ativo();
+        }
 
     }
 
